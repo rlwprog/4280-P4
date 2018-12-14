@@ -1,0 +1,11 @@
+void
+var x : 1 
+var y : 1
+start
+  var z : 1
+  start
+    var w : 1
+    scan w  .
+  stop
+  out [ x + y + z + w ] .
+stop

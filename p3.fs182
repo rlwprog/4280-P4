@@ -1,0 +1,6 @@
+void
+var x : 1
+start
+  scan x .
+  out [ x ] .
+stop

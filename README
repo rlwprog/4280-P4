@@ -1,0 +1,16 @@
+Project 3 uses the Global option and passes all tests with files provided in project description online. Test cases to fail also failed.
+
+To compile, type "make" from within the P3 directory. Upon making on the delmar server, many warning show up but do not affect the running of the program.
+
+To run, from within the P3 directory, type "./statSem<P3_test1.fs182" where P3_test1.fs182 is the test file with input. 
+
+Input can also be used from stdin if there is no input piped in from another file, i.e. running with the command "./statSem" and then inputing manually from standard in
+
+
+
+Another way to run is to type "./statSem P2_test1" where "P2_test1" is the test file. 
+
+".fs182" will automatically be appended to run invocations with two arguments. 
+
+
+To clean, type "make clean"
